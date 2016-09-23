@@ -6,8 +6,15 @@
 
 <body>
 <h1>This is a test - and this is updated</h1>
-
+<audio src="something" id="audio"></audio>
 <script>
+var audio = document.getElementById('audio');
+
+setTimeout(function() {
+    audio.play();        // play it through JavaScript after 3 seconds
+}, 3000);
+
+
 </script>
 
 </body>
